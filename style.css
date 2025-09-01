@@ -1,1 +1,121 @@
-/* Add you CSS here */
+/* Galaxy-themed background */
+.galaxy-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: radial-gradient(ellipse at center, #1a0033 0%, #0a0022 100%);
+	z-index: -1;
+}
+
+/* Main container styles */
+.container {
+	max-width: 800px;
+	margin: 40px auto;
+	background: rgba(20, 20, 40, 0.85);
+	border-radius: 16px;
+	box-shadow: 0 0 32px 8px #2a0055;
+	padding: 32px;
+	color: #fff;
+}
+
+/* Bio section styles */
+.bio {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+.profile-photo {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 3px solid #6a00ff;
+	margin-right: 24px;
+}
+.bio-text h1 {
+	margin: 0 0 8px 0;
+	font-size: 2em;
+	color: #c299fc;
+}
+.bio-text p {
+	margin: 0;
+	font-size: 1.1em;
+}
+
+/* Skills section styles */
+.skills {
+	margin-bottom: 32px;
+}
+.skills h2 {
+	color: #a366ff;
+}
+.skills ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.skills li {
+	background: #2a0055;
+	border-radius: 8px;
+	padding: 8px 16px;
+	margin: 6px;
+	font-size: 1em;
+}
+
+/* Projects section styles */
+.projects h2 {
+	color: #a366ff;
+}
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+.project-card {
+	background: #1a0033;
+	border-radius: 12px;
+	box-shadow: 0 0 12px 2px #2a0055;
+	padding: 16px;
+	width: 220px;
+	color: #fff;
+	text-align: center;
+}
+.project-card img {
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 8px;
+}
+.project-card h3 {
+	margin: 8px 0 4px 0;
+	color: #c299fc;
+}
+.project-card p {
+	font-size: 0.95em;
+	margin: 0;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+	.container {
+		padding: 12px;
+	}
+	.bio {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.profile-photo {
+		margin-bottom: 16px;
+		margin-right: 0;
+	}
+	.project-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-card {
+		width: 100%;
+	}
+}
+
+/* Comments are included to help you understand each part of the code above. */
