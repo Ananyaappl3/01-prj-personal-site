@@ -127,11 +127,11 @@ body {
 	background: none;
 	padding-top: 0;
 	padding-bottom: 0;
-	color: #fff;
+	color: #e3bd54;
 }
 .awards li:before {
 	content: "★ ";
-	color: #ff2d2d;
+	color: #e3bd54;
 }
 
 
@@ -202,7 +202,7 @@ body {
 	flex-wrap: wrap;
 }
 .project-card {
-	background: #31522f;
+	background: #122410;
 	border-radius: 8px;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 	padding: 20px 24px;
