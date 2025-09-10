@@ -1,51 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ananya Basarkar | Software Engineer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Galaxy-themed background -->
-  <div class="galaxy-bg"></div>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="img/refrencecopilot.jpg" alt="Logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">ABOUT ME</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#experience">EXPERIENCE</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
 
-  <!-- Portfolio container -->
-  <div class="container">
-    <!-- Bio Section -->
-    <section class="bio">
-      <!-- Profile photo -->
-      <img src="img/me.png" alt="My Photo" class="profile-photo">
-      <!-- Bio text -->
-      <div class="bio-text">
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>I'm a passionate developer who loves building modern web experiences. Welcome to my galaxy-themed portfolio!</p>
+  <!-- Main Section: Photo and Introduction Side-by-Side (Enlarged Photo) -->
+  <section class="top-bio">
+    <div class="top-bio-img">
+      <img src="img/main_photo.png" alt="Ananya Basarkar">
+    </div>
+    <div class="top-bio-content">
+      <h1>Ananya Basarkar</h1>
+      <h2>Software Engineer</h2>
+      <p>Hello! I'm Ananya, a passionate software engineer focused on building scalable web applications and learning new technologies. I enjoy solving complex problems and collaborating with teams to deliver impactful solutions.</p>
+      <div class="bio-contact">
+        <span>Email: <a href="mailto:ananya.basarkar@gmail.com">ananya.basarkar@gmail.com</a></span><br>
+        <span>Phone: <a href="tel:+919876543210">+91 98765 43210</a></span>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Skills Section -->
-    <section class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML &amp; CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-        <li>Teamwork</li>
+  <!-- About Me Section -->
+  <section class="about" id="about">
+  <!-- Photo removed for a cleaner about section -->
+    <div class="about-content">
+      <h3>ABOUT ME</h3>
+      <p><strong>Software Engineer passionate about building scalable web applications and learning new technologies.</strong></p>
+      <p>Skilled in JavaScript, Python, React, and backend development. I enjoy solving complex problems and collaborating with teams to deliver impactful solutions.</p>
+      <ul class="awards">
+        <li>Recipient, XYZ Coding Scholarship (2024)</li>
+        <li>Top 10 Finalist, National Hackathon (2023)</li>
+        <li>Open Source Contributor, Python & JS projects</li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <!-- Projects Section -->
-    <section class="projects">
-      <h2>Projects</h2>
-      <div class="project-list">
-        <!-- Example project card -->
-        <div class="project-card">
-          <img src="img/laptop.jpg" alt="Project Screenshot">
-          <h3>Project Title</h3>
-          <p>Short description of your project goes here.</p>
-        </div>
-        <!-- Add more project cards as needed -->
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>HTML &amp; CSS</li>
+      <li>Git &amp; GitHub</li>
+      <li>SQL</li>
+      <li>REST APIs</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience" id="experience">
+    <h2>Experience</h2>
+    <div class="exp-list">
+      <div class="exp-item">
+        <h3>Software Engineer Intern, TechCorp</h3>
+        <span>May 2024 – July 2024</span>
+        <p>Developed web features using React and Node.js. Improved site performance and collaborated with cross-functional teams.</p>
       </div>
-    </section>
-  </div>
+      <div class="exp-item">
+        <h3>Freelance Web Developer</h3>
+        <span>2023 – Present</span>
+        <p>Built responsive websites for small businesses. Integrated APIs and optimized user experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <div class="edu-list">
+      <div class="edu-item">
+        <h3>B.Tech in Computer Science</h3>
+        <span>ABC University, 2021 – 2025</span>
+        <p>Relevant coursework: Data Structures, Algorithms, Web Development, Databases.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:ananya.basarkar@gmail.com">ananya.basarkar@gmail.com</a></p>
+    <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/ananyabasarkar</a></p>
+    <p>GitHub: <a href="#">github.com/ananyabasarkar</a></p>
+  </section>
 </body>
 </html>
